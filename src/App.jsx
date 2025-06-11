@@ -1,5 +1,5 @@
 import NewsPage from "./page/NewsPage";
-import Home from "./page/home";
+import Home from "./page/Home";
 import Berita from "./page/Berita";
 import About from "./page/About"
 import KategoriCatur from "./page/KategoriCatur";
