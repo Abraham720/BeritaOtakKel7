@@ -191,13 +191,29 @@ const Navbar = () => {
   </Link>
 </li>
 
-        <input
-          type="text"
-          placeholder="cari apa bang..."
-          value={search}
-          onChange={handleChange}
-          className="py-2 pl-10 rounded-xl border-2 border-yellow-300 focus:bg-slate-100 focus:outline-red-500 text-black xl:hidden block"
-        />
+        <div className="relative w-full px-4">
+  <input
+    type="text"
+    placeholder="cari apa bang..."
+    value={search}
+    onChange={handleChange}
+    className="w-full py-2 pl-10 rounded-xl border-2 border-yellow-300 focus:bg-slate-100 focus:outline-red-500 text-black"
+  />
+
+  {search && (
+    <div className="absolute left-0 bg-white text-black rounded p-4 w-full max-h-[300px] overflow-y-auto shadow-md mt-2 z-[9999]">
+      {filteredSearch.length > 0 ? (
+        filteredSearch.map((news) => (
+          <Link to={`/berita/${news.id}`} key={news.id} onClick={() => setSearch("")}>
+            <NewsCard news={news} />
+          </Link>
+        ))
+      ) : (
+        <p>Tidak ditemukan</p>
+      )}
+    </div>
+  )}
+</div>
 
       </div>
     </header>
