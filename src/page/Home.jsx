@@ -20,7 +20,7 @@ const Home = () => {
   {/* Gambar */}
   <div className="w-10/12">
     <img
-      src="src\assets\Photos\Olahraga-Otak.png"
+      src="/assets/Photos/Olahraga-Otak.png"
       alt="Ilustrasi olahraga otak"
       className="pl-10 scale-150 w-full max-w-md mx-auto rounded-xl"
     />
