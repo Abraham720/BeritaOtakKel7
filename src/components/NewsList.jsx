@@ -180,7 +180,7 @@ export const allNews = [
     content: "Dua pasang atlet bridge Indonesia mengikuti Turnamen Bridge Dunia 2016 di Wroclaw, Polandia yang berlangsung dari tanggal 11 hingga 17 September 2016.",
     date: "11-09-2016",
     category: "bridge",
-    image: "https://img.jakpost.net/c/2019/10/10/2019_10_10_80631_1570683988._large.jpg",
+    image: "https://dam.mediacorp.sg/image/upload/s--6wj6BNjv--/c_fill,g_auto,h_468,w_830/f_auto,q_auto/singapore-contract-bridge-action.jpg?itok=Ng26gyDm",
     description: <p>Pasangan putra Bert Toar Polii dan Hartono, dan pasangan putri Yessi Grasella dan Vila Rosa akan berhadapan dengan tim dari sekitar 65 negara lainnya, demikian Sekretaris Tiga Pensosbud KBRI Warsawa Jorrie Andrean kepada Antara, Minggu.
       <br /><br />"Saya bangga adanya perwakilan Indonesia di kejuaraan bridge ini, yang membuktikan Indonesia merupakan bangsa maju, sejajar dengan negara maju lainnya," ujar Dubes RI untuk Polandia, Peter Frans Gontha, saat menyambut tim Indonesia di Warsawa.
       <br /><br />Dubes Gontha menekankan agar tim Indonesia memiliki target menjadi juara dunia, sehingga dapat mengharumkan nama bangsa.Dalam video call, tokoh bridge Indonesia Roy Tirtadji mengatakan, "Tim Indonesia harus menjadi juara pertama."
